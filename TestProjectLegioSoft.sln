@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectLegioSoft", "TestProjectLegioSoft\TestProjectLegioSoft.csproj", "{77C9BFA7-D625-4DF5-9AE9-3DF19F913D33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{BBB63FD8-2B84-4F7B-82F9-36D50B1C1619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{21969F69-6939-488D-B4AB-ECD07E9CFECC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77C9BFA7-D625-4DF5-9AE9-3DF19F913D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C9BFA7-D625-4DF5-9AE9-3DF19F913D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C9BFA7-D625-4DF5-9AE9-3DF19F913D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C9BFA7-D625-4DF5-9AE9-3DF19F913D33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBB63FD8-2B84-4F7B-82F9-36D50B1C1619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB63FD8-2B84-4F7B-82F9-36D50B1C1619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB63FD8-2B84-4F7B-82F9-36D50B1C1619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB63FD8-2B84-4F7B-82F9-36D50B1C1619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21969F69-6939-488D-B4AB-ECD07E9CFECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21969F69-6939-488D-B4AB-ECD07E9CFECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21969F69-6939-488D-B4AB-ECD07E9CFECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21969F69-6939-488D-B4AB-ECD07E9CFECC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
