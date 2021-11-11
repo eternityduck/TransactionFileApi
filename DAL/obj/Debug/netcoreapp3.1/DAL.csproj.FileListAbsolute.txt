@@ -11,3 +11,16 @@ D:\TestProjectLegioSoft\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
 D:\TestProjectLegioSoft\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.json
 D:\TestProjectLegioSoft\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.dev.json
 D:\TestProjectLegioSoft\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
+D:\TestProjectLegioSoft\TransactionFileApi\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+D:\TestProjectLegioSoft\TransactionFileApi\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.json
+D:\TestProjectLegioSoft\TransactionFileApi\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.dev.json
+D:\TestProjectLegioSoft\TransactionFileApi\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\TestProjectLegioSoft\TransactionFileApi\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\TestProjectLegioSoft\TransactionFileApi\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+D:\TestProjectLegioSoft\TransactionFileApi\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\TestProjectLegioSoft\TransactionFileApi\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+D:\TestProjectLegioSoft\TransactionFileApi\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+D:\TestProjectLegioSoft\TransactionFileApi\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+D:\TestProjectLegioSoft\TransactionFileApi\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+D:\TestProjectLegioSoft\TransactionFileApi\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+D:\TestProjectLegioSoft\TransactionFileApi\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache

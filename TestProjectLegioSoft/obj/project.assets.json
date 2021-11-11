@@ -8146,11 +8146,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TestProjectLegioSoft\\TestProjectLegioSoft\\TestProjectLegioSoft.csproj",
+      "projectUniqueName": "D:\\TestProjectLegioSoft\\TransactionFileApi\\TestProjectLegioSoft\\TestProjectLegioSoft.csproj",
       "projectName": "TestProjectLegioSoft",
-      "projectPath": "D:\\TestProjectLegioSoft\\TestProjectLegioSoft\\TestProjectLegioSoft.csproj",
+      "projectPath": "D:\\TestProjectLegioSoft\\TransactionFileApi\\TestProjectLegioSoft\\TestProjectLegioSoft.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\TestProjectLegioSoft\\TestProjectLegioSoft\\obj\\",
+      "outputPath": "D:\\TestProjectLegioSoft\\TransactionFileApi\\TestProjectLegioSoft\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -8165,8 +8165,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\TestProjectLegioSoft\\BLL\\BLL.csproj": {
-              "projectPath": "D:\\TestProjectLegioSoft\\BLL\\BLL.csproj"
+            "D:\\TestProjectLegioSoft\\TransactionFileApi\\BLL\\BLL.csproj": {
+              "projectPath": "D:\\TestProjectLegioSoft\\TransactionFileApi\\BLL\\BLL.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k9JcxhgIsK6EMHZQxYux21tedBF/G0OG2OmogpZWr8TMqkan0GD+NJmYkD5EmNokOlc7J++u0xl16EnKjdlb3w==",
+  "dgSpecHash": "B25T2AKI+mhvz9LZTNz2pME7YBfacYCNxfsKhRBb4imWPdifw88k5VROJsoAZE00zc+rbOHEF8emfpk++gfrxQ==",
   "success": true,
-  "projectFilePath": "D:\\TestProjectLegioSoft\\DAL\\DAL.csproj",
+  "projectFilePath": "D:\\TestProjectLegioSoft\\TransactionFileApi\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\csvhelper\\27.1.1\\csvhelper.27.1.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\epplus\\5.8.2\\epplus.5.8.2.nupkg.sha512",

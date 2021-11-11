@@ -15,7 +15,7 @@ namespace BLL.Services
 {
     public class TransactionService : ITransactionService
     {
-        private static string _path = @$"D:\TestProjectLegioSoft\DataStorage\data{Guid.NewGuid()}.csv";
+        private static string _path = @$"..\DataStorage\data{Guid.NewGuid()}.csv";
         private readonly ApiContext _context;
         public TransactionService(ApiContext context) => _context = context;
 

@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using BLL.Interfaces;
 using DAL.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 
 namespace TestProjectLegioSoft.Controllers
 {
-    
+    [Authorize]
     [Route("controller")]
     [ApiController]
     public class TransactionController : ControllerBase
@@ -56,6 +57,25 @@ namespace TestProjectLegioSoft.Controllers
             if (!isParsed) return BadRequest("Incorrect type name");
             
             var file = await _transactionService.GetByTypeAsync(typeParsed);
+            
+            return File(file, "text/csv", "sample.csv");
+        }
+
+        [HttpGet("Export/FilterByStatus")]
+        public async Task<IActionResult> ExportByStatus(string status)
+        {
+            bool isParsed = Enum.TryParse(status, out Status typeParsed);
+            if (!isParsed) return BadRequest("Incorrect type name");
+            
+            var file = await _transactionService.GetByStatusAsync(typeParsed);
+            
+            return File(file, "text/csv", "sample.csv");
+        }
+
+        [HttpGet("Export/FilterByClientName")]
+        public async Task<IActionResult> ExportByClientName(string name)
+        {
+            var file = await _transactionService.GetByClientNameAsync(name);
             
             return File(file, "text/csv", "sample.csv");
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TestProjectLegioSoft\\TestProjectLegioSoft\\TestProjectLegioSoft.csproj": {}
+    "D:\\TestProjectLegioSoft\\TransactionFileApi\\TestProjectLegioSoft\\TestProjectLegioSoft.csproj": {}
   },
   "projects": {
-    "D:\\TestProjectLegioSoft\\BLL\\BLL.csproj": {
+    "D:\\TestProjectLegioSoft\\TransactionFileApi\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TestProjectLegioSoft\\BLL\\BLL.csproj",
+        "projectUniqueName": "D:\\TestProjectLegioSoft\\TransactionFileApi\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\TestProjectLegioSoft\\BLL\\BLL.csproj",
+        "projectPath": "D:\\TestProjectLegioSoft\\TransactionFileApi\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\TestProjectLegioSoft\\BLL\\obj\\",
+        "outputPath": "D:\\TestProjectLegioSoft\\TransactionFileApi\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\TestProjectLegioSoft\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\TestProjectLegioSoft\\DAL\\DAL.csproj"
+              "D:\\TestProjectLegioSoft\\TransactionFileApi\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\TestProjectLegioSoft\\TransactionFileApi\\DAL\\DAL.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "D:\\TestProjectLegioSoft\\DAL\\DAL.csproj": {
+    "D:\\TestProjectLegioSoft\\TransactionFileApi\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TestProjectLegioSoft\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\TestProjectLegioSoft\\TransactionFileApi\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\TestProjectLegioSoft\\DAL\\DAL.csproj",
+        "projectPath": "D:\\TestProjectLegioSoft\\TransactionFileApi\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\TestProjectLegioSoft\\DAL\\obj\\",
+        "outputPath": "D:\\TestProjectLegioSoft\\TransactionFileApi\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -156,14 +156,14 @@
         }
       }
     },
-    "D:\\TestProjectLegioSoft\\TestProjectLegioSoft\\TestProjectLegioSoft.csproj": {
+    "D:\\TestProjectLegioSoft\\TransactionFileApi\\TestProjectLegioSoft\\TestProjectLegioSoft.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TestProjectLegioSoft\\TestProjectLegioSoft\\TestProjectLegioSoft.csproj",
+        "projectUniqueName": "D:\\TestProjectLegioSoft\\TransactionFileApi\\TestProjectLegioSoft\\TestProjectLegioSoft.csproj",
         "projectName": "TestProjectLegioSoft",
-        "projectPath": "D:\\TestProjectLegioSoft\\TestProjectLegioSoft\\TestProjectLegioSoft.csproj",
+        "projectPath": "D:\\TestProjectLegioSoft\\TransactionFileApi\\TestProjectLegioSoft\\TestProjectLegioSoft.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\TestProjectLegioSoft\\TestProjectLegioSoft\\obj\\",
+        "outputPath": "D:\\TestProjectLegioSoft\\TransactionFileApi\\TestProjectLegioSoft\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -178,8 +178,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\TestProjectLegioSoft\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\TestProjectLegioSoft\\BLL\\BLL.csproj"
+              "D:\\TestProjectLegioSoft\\TransactionFileApi\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\TestProjectLegioSoft\\TransactionFileApi\\BLL\\BLL.csproj"
               }
             }
           }

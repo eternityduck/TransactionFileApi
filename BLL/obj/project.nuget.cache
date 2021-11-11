@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OgzXGTqhDoPPenyRTdv8eGFaPkgkzjBp94a97DqmiEUPWRZe2/0CeKaGQXtl466FPu8oDI0oSuUvv+24+lpOEw==",
+  "dgSpecHash": "iPnUXb7WXbA1RTzlZ3KdJev8uZJ7JgfzCPDntcnP95ETiygm/dBIa6+jqinzxrbkNdPukUfoVHIbHXSsB8BUNw==",
   "success": true,
-  "projectFilePath": "D:\\TestProjectLegioSoft\\BLL\\BLL.csproj",
+  "projectFilePath": "D:\\TestProjectLegioSoft\\TransactionFileApi\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\csvhelper\\27.1.1\\csvhelper.27.1.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\epplus\\5.8.2\\epplus.5.8.2.nupkg.sha512",

@@ -11,3 +11,16 @@ D:\TestProjectLegioSoft\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs
 D:\TestProjectLegioSoft\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
 D:\TestProjectLegioSoft\BLL\obj\Debug\netcoreapp3.1\BLL.dll
 D:\TestProjectLegioSoft\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
+D:\TestProjectLegioSoft\TransactionFileApi\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
+D:\TestProjectLegioSoft\TransactionFileApi\BLL\bin\Debug\netcoreapp3.1\BLL.dll
+D:\TestProjectLegioSoft\TransactionFileApi\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
+D:\TestProjectLegioSoft\TransactionFileApi\BLL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\TestProjectLegioSoft\TransactionFileApi\BLL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\TestProjectLegioSoft\TransactionFileApi\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.AssemblyReference.cache
+D:\TestProjectLegioSoft\TransactionFileApi\BLL\obj\Debug\netcoreapp3.1\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\TestProjectLegioSoft\TransactionFileApi\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+D:\TestProjectLegioSoft\TransactionFileApi\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
+D:\TestProjectLegioSoft\TransactionFileApi\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
+D:\TestProjectLegioSoft\TransactionFileApi\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
+D:\TestProjectLegioSoft\TransactionFileApi\BLL\obj\Debug\netcoreapp3.1\BLL.dll
+D:\TestProjectLegioSoft\TransactionFileApi\BLL\obj\Debug\netcoreapp3.1\BLL.pdb

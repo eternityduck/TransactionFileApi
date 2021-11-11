@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eYhY0ZguttBc+W5aAYZTRPQGoaly3OPy+ffF1nd+6mGTYqabnoXaW0V6cTfejs5ovScgGHPgT5satZtI/gqmEQ==",
+  "dgSpecHash": "jNM0/BlVOrnNKJ8ZyjqVr15ugmqASXjbXMmcRWnh+JloQ6bI10X1a7T0p3JUg4jQ3lunHgI/5GAEpsv4gtRI3A==",
   "success": true,
-  "projectFilePath": "D:\\TestProjectLegioSoft\\TestProjectLegioSoft\\TestProjectLegioSoft.csproj",
+  "projectFilePath": "D:\\TestProjectLegioSoft\\TransactionFileApi\\TestProjectLegioSoft\\TestProjectLegioSoft.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\csvhelper\\27.1.1\\csvhelper.27.1.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
