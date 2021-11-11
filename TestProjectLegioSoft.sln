@@ -1,10 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectLegioSoft", "TestProjectLegioSoft\TestProjectLegioSoft.csproj", "{77C9BFA7-D625-4DF5-9AE9-3DF19F913D33}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{77C9BFA7-D625-4DF5-9AE9-3DF19F913D33}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{BBB63FD8-2B84-4F7B-82F9-36D50B1C1619}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{21969F69-6939-488D-B4AB-ECD07E9CFECC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{21969F69-6939-488D-B4AB-ECD07E9CFECC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{4CE11B26-4C77-44AE-AAFA-FE4E18AE302C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +26,9 @@ Global
 		{21969F69-6939-488D-B4AB-ECD07E9CFECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21969F69-6939-488D-B4AB-ECD07E9CFECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21969F69-6939-488D-B4AB-ECD07E9CFECC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE11B26-4C77-44AE-AAFA-FE4E18AE302C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE11B26-4C77-44AE-AAFA-FE4E18AE302C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE11B26-4C77-44AE-AAFA-FE4E18AE302C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE11B26-4C77-44AE-AAFA-FE4E18AE302C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

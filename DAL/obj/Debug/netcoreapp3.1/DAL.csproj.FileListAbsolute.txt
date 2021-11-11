@@ -24,3 +24,6 @@ D:\TestProjectLegioSoft\TransactionFileApi\DAL\obj\Debug\netcoreapp3.1\DAL.cspro
 D:\TestProjectLegioSoft\TransactionFileApi\DAL\obj\Debug\netcoreapp3.1\DAL.dll
 D:\TestProjectLegioSoft\TransactionFileApi\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
 D:\TestProjectLegioSoft\TransactionFileApi\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
+D:\TestProjectLegioSoft\TransactionFileApi\DAL\bin\Debug\netcoreapp3.1\Domain.dll
+D:\TestProjectLegioSoft\TransactionFileApi\DAL\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\TestProjectLegioSoft\TransactionFileApi\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
