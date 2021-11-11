@@ -1,12 +1,12 @@
 ﻿using System;
-using DAL.Models;
+using Domain;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 
 namespace DAL
 {
-    public class ApiContext : IdentityDbContext<User>
+    public class ApiContext : IdentityDbContext
     {
         public ApiContext(DbContextOptions<ApiContext> options)
             : base(options)
@@ -35,7 +35,6 @@ namespace DAL
             builder.Entity<Transaction>()
                 .Property(x => x.Id)
                 .ValueGeneratedNever();
-
         }
     }
 }

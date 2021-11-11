@@ -2,18 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "CsvHelper/27.1.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "[4.7.0]"
-        },
-        "compile": {
-          "lib/netstandard2.1/CsvHelper.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.1/CsvHelper.dll": {}
-        }
-      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -1595,32 +1583,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "CsvHelper/27.1.1": {
-      "sha512": "lo5yypClBORR2XiWPRxQApaA4C2R4GVCIPVRt9HfaLxLmVQtg/KZiOYsd4luLgyOxkUatF9R0QdFQYk7Y2l0cw==",
-      "type": "package",
-      "path": "csvhelper/27.1.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "csvhelper.27.1.1.nupkg.sha512",
-        "csvhelper.nuspec",
-        "lib/net45/CsvHelper.dll",
-        "lib/net45/CsvHelper.xml",
-        "lib/net47/CsvHelper.dll",
-        "lib/net47/CsvHelper.xml",
-        "lib/net5.0/CsvHelper.dll",
-        "lib/net5.0/CsvHelper.xml",
-        "lib/netstandard2.0/CsvHelper.dll",
-        "lib/netstandard2.0/CsvHelper.xml",
-        "lib/netstandard2.1/CsvHelper.dll",
-        "lib/netstandard2.1/CsvHelper.xml"
-      ]
-    },
     "Humanizer.Core/2.8.26": {
       "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "type": "package",
@@ -5978,11 +5954,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "CsvHelper >= 27.1.1",
+      "Domain >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.9",
       "Microsoft.EntityFrameworkCore >= 5.0.9",
       "Microsoft.EntityFrameworkCore.Relational >= 5.0.9",
@@ -6014,7 +5995,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\TestProjectLegioSoft\\TransactionFileApi\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\TestProjectLegioSoft\\TransactionFileApi\\Domain\\Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -6027,10 +6012,6 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
-          "CsvHelper": {
-            "target": "Package",
-            "version": "[27.1.1, )"
-          },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
             "version": "[5.0.9, )"

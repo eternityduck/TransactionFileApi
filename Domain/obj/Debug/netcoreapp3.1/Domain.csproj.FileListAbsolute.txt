@@ -1,0 +1,10 @@
+D:\TestProjectLegioSoft\TransactionFileApi\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
+D:\TestProjectLegioSoft\TransactionFileApi\Domain\obj\Debug\netcoreapp3.1\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\TestProjectLegioSoft\TransactionFileApi\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+D:\TestProjectLegioSoft\TransactionFileApi\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+D:\TestProjectLegioSoft\TransactionFileApi\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+D:\TestProjectLegioSoft\TransactionFileApi\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+D:\TestProjectLegioSoft\TransactionFileApi\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+D:\TestProjectLegioSoft\TransactionFileApi\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\TestProjectLegioSoft\TransactionFileApi\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+D:\TestProjectLegioSoft\TransactionFileApi\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
