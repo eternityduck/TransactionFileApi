@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using BLL.Interfaces;
 using CsvHelper;
 using DAL;
+using DAL.CsvParser;
 using DAL.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
@@ -15,15 +16,11 @@ namespace BLL.Services
 {
     public class TransactionService : ITransactionService
     {
-        private static string _path = @$"..\DataStorage\data{Guid.NewGuid()}.csv";
+        private static readonly string Path = @$"..\DataStorage\data{Guid.NewGuid()}.csv";
         private readonly ApiContext _context;
+        
         public TransactionService(ApiContext context) => _context = context;
-
-        public async Task<Transaction> GetByIdAsync(int id)
-        {
-            return await _context.Transactions.FindAsync(id);
-        }
-
+        
         public async Task<IEnumerable<Transaction>> GetAllAsync()
         {
             return await _context.Transactions.ToListAsync();
@@ -31,14 +28,25 @@ namespace BLL.Services
 
         public async Task DeleteByIdAsync(int id)
         {
-            var model = await GetByIdAsync(id);
+            var model = await _context.Transactions.FindAsync(id);
+            if (model is null)
+            {
+                throw new ArgumentOutOfRangeException(nameof(id), "Incorrect Id");
+            }
             _context.Transactions.Remove(model);
+            await _context.SaveChangesAsync();
         }
 
         public async Task UpdateStatus(int id, Status status)
         {
-            var model = await GetByIdAsync(id);
+            
+            var model = await _context.Transactions.FindAsync(id);
+            if (model is null)
+            {
+                throw new ArgumentOutOfRangeException(nameof(id), "Incorrect Id");
+            }
             model.Status = status;
+            await _context.SaveChangesAsync();
         }
 
         public async Task<MemoryStream> GetByStatusAsync(Status status)
@@ -105,14 +113,15 @@ namespace BLL.Services
 
         private async Task CreateCsvFile(IEnumerable<Transaction> transactions)
         {
-            var file = File.Create(_path);
+            var file = File.Create(Path);
 
             await using var writer = new StreamWriter(file);
             await using var csv = new CsvWriter(writer, CultureInfo.InvariantCulture);
-
+            
+            csv.Context.RegisterClassMap<TransactionMap>();
             csv.WriteHeader<Transaction>();
             await csv.NextRecordAsync();
-
+            
             foreach (var transaction in transactions)
             {
                 csv.WriteRecord(transaction);
@@ -123,7 +132,7 @@ namespace BLL.Services
         private async Task<MemoryStream> ExportMemoryStream()
         {
             byte[] fileData;
-            await using (FileStream fs = File.OpenRead(_path))
+            await using (FileStream fs = File.OpenRead(Path))
             {
                 using (BinaryReader binaryReader = new BinaryReader(fs))
                 {

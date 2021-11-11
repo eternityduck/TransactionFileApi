@@ -9,7 +9,6 @@ namespace BLL.Interfaces
 {
     public interface ITransactionService
     {
-        Task<Transaction> GetByIdAsync(int id);
         Task<IEnumerable<Transaction>> GetAllAsync();
         Task DeleteByIdAsync(int id);
         Task UpdateStatus(int id, Status status);

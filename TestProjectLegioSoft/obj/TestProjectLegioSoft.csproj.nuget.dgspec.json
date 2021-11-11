@@ -46,10 +46,6 @@
               "target": "Package",
               "version": "[27.1.1, )"
             },
-            "EPPlus": {
-              "target": "Package",
-              "version": "[5.8.2, )"
-            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.9, )"
@@ -111,10 +107,6 @@
             "CsvHelper": {
               "target": "Package",
               "version": "[27.1.1, )"
-            },
-            "EPPlus": {
-              "target": "Package",
-              "version": "[5.8.2, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -197,10 +189,6 @@
             "CsvHelper": {
               "target": "Package",
               "version": "[27.1.1, )"
-            },
-            "EPPlus": {
-              "target": "Package",
-              "version": "[5.8.2, )"
             },
             "EntityFramework": {
               "target": "Package",
