@@ -24,7 +24,7 @@
     "optimize": false,
     "keyFile": "",
     "emitEntryPoint": true,
-    "xmlDoc": false,
+    "xmlDoc": true,
     "debugType": "portable"
   },
   "targets": {
@@ -34,7 +34,6 @@
           "Application": "1.0.0",
           "CsvHelper": "27.1.1",
           "EntityFramework": "6.4.4",
-          "FluentValidation.AspNetCore": "10.0.0",
           "IdentityServer4": "4.1.2",
           "IdentityServer4.AccessTokenValidation": "3.0.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "8.0.0",
@@ -354,47 +353,6 @@
         "compile": {
           "lib/netstandard2.1/EntityFramework.SqlServer.dll": {},
           "lib/netstandard2.1/EntityFramework.dll": {}
-        }
-      },
-      "FluentValidation/10.0.0": {
-        "runtime": {
-          "lib/netstandard2.1/FluentValidation.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "10.0.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.1/FluentValidation.dll": {}
-        }
-      },
-      "FluentValidation.AspNetCore/10.0.0": {
-        "dependencies": {
-          "FluentValidation": "10.0.0",
-          "FluentValidation.DependencyInjectionExtensions": "10.0.0"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "10.0.0.0"
-          }
-        },
-        "compile": {
-          "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll": {}
-        }
-      },
-      "FluentValidation.DependencyInjectionExtensions/10.0.0": {
-        "dependencies": {
-          "FluentValidation": "10.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "10.0.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -1876,7 +1834,6 @@
         "dependencies": {
           "CsvHelper": "27.1.1",
           "DAL": "1.0.0",
-          "FluentValidation.AspNetCore": "10.0.0",
           "MediatR": "8.0.0",
           "Microsoft.AspNetCore.Http.Features": "5.0.9"
         },
@@ -1889,7 +1846,6 @@
       },
       "DAL/1.0.0": {
         "dependencies": {
-          "CsvHelper": "27.1.1",
           "Domain": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.9",
           "Microsoft.EntityFrameworkCore": "5.0.9",
@@ -3511,27 +3467,6 @@
       "sha512": "sha512-yj1+/4tci7Panu3jKDHYizxwVm0Jvm7b7m057b5h4u8NUHGCR8WIWirBTw+8EptRffwftIWPBeIRGNKD1ewEMQ==",
       "path": "entityframework/6.4.4",
       "hashPath": "entityframework.6.4.4.nupkg.sha512"
-    },
-    "FluentValidation/10.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-jNFPbLjBy/bfIWx4BV/WVEsS+1OxBVf22mmSdvVa9RCHJDkNhAjbKZkxgA0s1rYNFxVn+a1fQbos95t4j/z3Zg==",
-      "path": "fluentvalidation/10.0.0",
-      "hashPath": "fluentvalidation.10.0.0.nupkg.sha512"
-    },
-    "FluentValidation.AspNetCore/10.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-W2eIPM1C6NK/p5IgywgwfoFiaMcX4EuIo4PGx/covWi76SJj/PX1RYtbfzqUR3Y1yfzQ0RlVQrXD7ycOEUub4Q==",
-      "path": "fluentvalidation.aspnetcore/10.0.0",
-      "hashPath": "fluentvalidation.aspnetcore.10.0.0.nupkg.sha512"
-    },
-    "FluentValidation.DependencyInjectionExtensions/10.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-J/6dnwbf+mL34SiDYl9udH3z6gduYuhENW6a2EY9LYJKqk7JDysaKpWAzDz3wULpm3zBM98PxWmk5stoqc7p2A==",
-      "path": "fluentvalidation.dependencyinjectionextensions/10.0.0",
-      "hashPath": "fluentvalidation.dependencyinjectionextensions.10.0.0.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",

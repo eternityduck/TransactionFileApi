@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 using DAL;
@@ -8,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BLL.TransactionsCqrs.Queries.GetAll
 {
-    public class GetAllHandler : IRequestHandler<GetAllQuery, IEnumerable<Transaction>>
+    public class GetAllHandler : QueryBase, IRequestHandler<GetAllQuery, MemoryStream>
     {
         private readonly ApiContext _context;
 
@@ -17,9 +18,13 @@ namespace BLL.TransactionsCqrs.Queries.GetAll
             _context = context;
         }
         
-        public async Task<IEnumerable<Transaction>> Handle(GetAllQuery request, CancellationToken cancellationToken)
+        public async Task<MemoryStream> Handle(GetAllQuery request, CancellationToken cancellationToken)
         {
-            return await _context.Transactions.AsNoTracking().ToListAsync(cancellationToken: cancellationToken);
+            var result = await _context.Transactions
+                .AsNoTracking()
+                .ToListAsync(cancellationToken: cancellationToken);
+            var arr = await CreateCsvFile(result);
+            return ConvertToMemoryStream(arr);
         }
     }
 }
