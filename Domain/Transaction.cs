@@ -1,5 +1,4 @@
-﻿
-namespace Domain
+﻿namespace Domain
 {
     public enum Status
     {
@@ -15,15 +14,10 @@ namespace Domain
     }
     public class Transaction
     {
-       
         public int Id { get; set; }
-     
         public Status Status { get; set; }
-      
         public TransactionType TransactionType { get; set; }
-    
         public decimal Amount { get; set; }
-        
         public string Client { get; set; }
     }
 }

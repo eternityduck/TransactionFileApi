@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:TestProjectLegioSoft.Controllers.TransactionController.ExportAll(System.Threading.CancellationToken)">
+            <summary>
+            Export all of transactions
+            </summary>
+            <remarks>
+            Sample request:
+            GET /Transaction
+            </remarks>
+            <returns>Returns file that contains all transactions from DB</returns>
+            <response code ="200">Success</response>
+            <response code ="401">If the user is unauthorized</response>
+        </member>
+        <member name="M:TestProjectLegioSoft.Controllers.TransactionController.Delete(System.Int32)">
+            <summary>
+            Deletes transaction by id
+            </summary>
+            <remarks>
+            Sample request:
+            DELETE/transaction/1
+            </remarks>
+            <param name="id">Transaction id (int)</param>
+            <returns>Returns NoContent</returns>
+            <response code ="204">Success</response>
+            <response code ="401">If the user is unauthorized</response>
+        </member>
+        <member name="M:TestProjectLegioSoft.Controllers.TransactionController.Edit(System.Int32,System.String)">
+            <summary>
+            Updates the status of transaction
+            </summary>
+            <remarks>
+            Sample request:
+            Transaction/PUT/1
+            </remarks>
+            <param name="id">Transaction id (int)</param>
+            <param name="status">Updated status (string)</param>
+            <returns>Returns NoContent</returns>
+            <response code ="204">Success</response>
+            <response code ="401">If the user is unauthorized</response>
+        </member>
+        <member name="M:TestProjectLegioSoft.Controllers.TransactionController.Import(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Imports the file to the database or updates the status if the transaction already in the database
+            </summary>
+            POST/Transaction
+            <param name="file">File to import (.csv file)</param>
+            <returns>NoContent</returns>
+            <response code ="204">Success</response>
+            <response code ="401">If the user is unauthorized</response>
+        </member>
+        <member name="M:TestProjectLegioSoft.Controllers.TransactionController.ExportByType(System.String)">
+            <summary>
+            Filters and exports the file by the type
+            </summary>
+            <remarks>
+            Sample request:
+            GET/Refill 
+            </remarks>
+            <param name="type">The type which will be a filter (string)</param>
+            <returns>.csv File</returns>
+            <response code ="200">Success</response>
+            <response code ="401">If the user is unauthorized</response>
+        </member>
+        <member name="M:TestProjectLegioSoft.Controllers.TransactionController.ExportByStatus(System.String)">
+            <summary>
+            Filters and exports the file by the status
+            </summary>
+            <remarks>
+            Sample request:
+            GET/Completed
+            </remarks>
+            <param name="status">The status which will be a filter (string)</param>
+            <returns>.csv File</returns>
+            <response code ="200">Success</response>
+            <response code ="401">If the user is unauthorized</response>
+        </member>
+        <member name="M:TestProjectLegioSoft.Controllers.TransactionController.ExportByClientName(System.String)">
+            <summary>
+            Filters and exports the file by the client name
+            </summary>
+            <remarks>
+            Sample request:
+            GET/John
+            </remarks>
+            <param name="name">The client`s name (string)</param>
+            <returns>.csv File</returns>
+            <response code ="200">Success</response>
+            <response code ="401">If the user is unauthorized</response>
+        </member>
+        <member name="M:TestProjectLegioSoft.Controllers.UserController.Register(TestProjectLegioSoft.ControllerModels.RegisterControllerModel)">
+            <summary>
+            Registers the user
+            </summary>
+            <remarks>
+            Sample request:
+            POST User/Register
+            {
+                email: "ssss@gmail.com"
+                password: "12345"
+                passwordconfirm: "12345"
+            }
+            </remarks>
+            <param name="model">The register model (RegisterControllerModel object)</param>
+            <returns>Response, that user has successfully registered</returns>
+            <response code ="200">Success</response>
+            <response code = "500">If the user already registered or passwords don`t match</response>
+        </member>
+        <member name="M:TestProjectLegioSoft.Controllers.UserController.Login(TestProjectLegioSoft.ControllerModels.LoginControllerModel)">
+            <summary>
+            Logins the user
+            </summary>
+            <remarks>
+            Sample request:
+            POST User/Login
+            {
+                email: "ssss@gmail.com"
+                password: "12345"
+            }
+            </remarks>
+            <param name="model">LoginControllerModel (object)</param>
+            <returns>JWT token to login</returns>
+            <response code ="200">Success</response>
+            <response code = "401">If the user is unauthorized</response>
+        </member>
+    </members>
+</doc>

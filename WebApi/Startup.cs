@@ -1,4 +1,6 @@
 using System;
+using System.IO;
+using System.Reflection;
 using System.Text;
 using DAL;
 using MediatR;
@@ -77,10 +79,13 @@ namespace TestProjectLegioSoft
             #region Swagger
             services.AddSwaggerGen(options =>
             {
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                options.IncludeXmlComments(xmlPath);
                 options.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Description = "Swagger API v1",
-                    Title = "Swagger with Bearer",
+                    Description = "API for transaction manipulating",
+                    Title = "Transaction API",
                     Version = "1.0.0"
                 });
                 options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()  

@@ -15,7 +15,7 @@ using TestProjectLegioSoft.ControllerModels;
 
 namespace TestProjectLegioSoft.Controllers
 {
-   [ApiController]
+    [ApiController]
     [Route("[controller]")]
     public class UserController : ControllerBase
     {
@@ -27,8 +27,25 @@ namespace TestProjectLegioSoft.Controllers
             _configuration = configuration;
         }
         
-
+        /// <summary>
+        /// Registers the user
+        /// </summary>
+        /// <remarks>
+        /// Sample request:
+        /// POST User/Register
+        /// {
+        ///     email: "ssss@gmail.com"
+        ///     password: "12345"
+        ///     passwordconfirm: "12345"
+        /// }
+        /// </remarks>
+        /// <param name="model">The register model (RegisterControllerModel object)</param>
+        /// <returns>Response, that user has successfully registered</returns>
+        /// <response code ="200">Success</response>
+        /// <response code = "500">If the user already registered or passwords don`t match</response>
         [HttpPost("/Register")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> Register([FromBody] RegisterControllerModel model)  
         {  
             var userExists = await _userManager.FindByNameAsync(model.Email);  
@@ -48,8 +65,24 @@ namespace TestProjectLegioSoft.Controllers
             return Ok(new Response { Status = "Success", Message = "User created successfully!" });  
         }  
         
-        
+        /// <summary>
+        /// Logins the user
+        /// </summary>
+        /// <remarks>
+        /// Sample request:
+        /// POST User/Login
+        /// {
+        ///     email: "ssss@gmail.com"
+        ///     password: "12345"
+        /// }
+        /// </remarks>
+        /// <param name="model">LoginControllerModel (object)</param>
+        /// <returns>JWT token to login</returns>
+        /// <response code ="200">Success</response>
+        /// <response code = "401">If the user is unauthorized</response>
         [HttpPost("/Login")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<IActionResult> Login([FromBody] LoginControllerModel model)  
         {  
             var user = await _userManager.FindByNameAsync(model.Email);

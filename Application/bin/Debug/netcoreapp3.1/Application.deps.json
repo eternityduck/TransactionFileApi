@@ -10,7 +10,6 @@
         "dependencies": {
           "CsvHelper": "27.1.1",
           "DAL": "1.0.0",
-          "FluentValidation.AspNetCore": "10.0.0",
           "MediatR": "8.0.0",
           "Microsoft.AspNetCore.Http.Features": "5.0.9"
         },
@@ -26,38 +25,6 @@
           "lib/netstandard2.1/CsvHelper.dll": {
             "assemblyVersion": "27.0.0.0",
             "fileVersion": "27.1.1.0"
-          }
-        }
-      },
-      "FluentValidation/10.0.0": {
-        "runtime": {
-          "lib/netstandard2.1/FluentValidation.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "10.0.0.0"
-          }
-        }
-      },
-      "FluentValidation.AspNetCore/10.0.0": {
-        "dependencies": {
-          "FluentValidation": "10.0.0",
-          "FluentValidation.DependencyInjectionExtensions": "10.0.0"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "10.0.0.0"
-          }
-        }
-      },
-      "FluentValidation.DependencyInjectionExtensions/10.0.0": {
-        "dependencies": {
-          "FluentValidation": "10.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "10.0.0.0"
           }
         }
       },
@@ -485,6 +452,20 @@
       "Microsoft.Win32.SystemEvents/4.7.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
         }
       },
       "Newtonsoft.Json/10.0.1": {
@@ -663,6 +644,26 @@
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
           "Microsoft.Win32.SystemEvents": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
         }
       },
       "System.Dynamic.Runtime/4.3.0": {
@@ -1035,6 +1036,12 @@
         "dependencies": {
           "System.Security.AccessControl": "4.7.0",
           "System.Windows.Extensions": "4.7.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.700.19.56404"
+          }
         }
       },
       "System.Security.Principal.Windows/4.7.0": {},
@@ -1098,6 +1105,20 @@
       "System.Windows.Extensions/4.7.0": {
         "dependencies": {
           "System.Drawing.Common": "4.7.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.700.19.56404"
+          }
         }
       },
       "System.Xml.ReaderWriter/4.3.0": {
@@ -1172,7 +1193,6 @@
       },
       "DAL/1.0.0": {
         "dependencies": {
-          "CsvHelper": "27.1.1",
           "Domain": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.9",
           "Microsoft.EntityFrameworkCore": "5.0.9",
@@ -1203,27 +1223,6 @@
       "sha512": "sha512-lo5yypClBORR2XiWPRxQApaA4C2R4GVCIPVRt9HfaLxLmVQtg/KZiOYsd4luLgyOxkUatF9R0QdFQYk7Y2l0cw==",
       "path": "csvhelper/27.1.1",
       "hashPath": "csvhelper.27.1.1.nupkg.sha512"
-    },
-    "FluentValidation/10.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-jNFPbLjBy/bfIWx4BV/WVEsS+1OxBVf22mmSdvVa9RCHJDkNhAjbKZkxgA0s1rYNFxVn+a1fQbos95t4j/z3Zg==",
-      "path": "fluentvalidation/10.0.0",
-      "hashPath": "fluentvalidation.10.0.0.nupkg.sha512"
-    },
-    "FluentValidation.AspNetCore/10.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-W2eIPM1C6NK/p5IgywgwfoFiaMcX4EuIo4PGx/covWi76SJj/PX1RYtbfzqUR3Y1yfzQ0RlVQrXD7ycOEUub4Q==",
-      "path": "fluentvalidation.aspnetcore/10.0.0",
-      "hashPath": "fluentvalidation.aspnetcore.10.0.0.nupkg.sha512"
-    },
-    "FluentValidation.DependencyInjectionExtensions/10.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-J/6dnwbf+mL34SiDYl9udH3z6gduYuhENW6a2EY9LYJKqk7JDysaKpWAzDz3wULpm3zBM98PxWmk5stoqc7p2A==",
-      "path": "fluentvalidation.dependencyinjectionextensions/10.0.0",
-      "hashPath": "fluentvalidation.dependencyinjectionextensions.10.0.0.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",

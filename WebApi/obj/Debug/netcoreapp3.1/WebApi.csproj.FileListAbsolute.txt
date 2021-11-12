@@ -104,6 +104,5 @@ D:\TestProjectLegioSoft\TransactionFileApi\WebApi\obj\Debug\netcoreapp3.1\WebApi
 D:\TestProjectLegioSoft\TransactionFileApi\WebApi\obj\Debug\netcoreapp3.1\WebApi.pdb
 D:\TestProjectLegioSoft\TransactionFileApi\WebApi\obj\Debug\netcoreapp3.1\WebApi.genruntimeconfig.cache
 D:\TestProjectLegioSoft\TransactionFileApi\WebApi\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
-D:\TestProjectLegioSoft\TransactionFileApi\WebApi\bin\Debug\netcoreapp3.1\FluentValidation.dll
-D:\TestProjectLegioSoft\TransactionFileApi\WebApi\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
-D:\TestProjectLegioSoft\TransactionFileApi\WebApi\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+D:\TestProjectLegioSoft\TransactionFileApi\WebApi\bin\Debug\netcoreapp3.1\WebApi.xml
+D:\TestProjectLegioSoft\TransactionFileApi\WebApi\obj\Debug\netcoreapp3.1\WebApi.xml
