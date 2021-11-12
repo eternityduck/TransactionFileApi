@@ -4,7 +4,7 @@
         <name>WebApi</name>
     </assembly>
     <members>
-        <member name="M:TestProjectLegioSoft.Controllers.TransactionController.ExportAll(System.Threading.CancellationToken)">
+        <member name="M:WebApi.Controllers.TransactionController.ExportAll(System.Threading.CancellationToken)">
             <summary>
             Export all of transactions
             </summary>
@@ -16,7 +16,7 @@
             <response code ="200">Success</response>
             <response code ="401">If the user is unauthorized</response>
         </member>
-        <member name="M:TestProjectLegioSoft.Controllers.TransactionController.Delete(System.Int32)">
+        <member name="M:WebApi.Controllers.TransactionController.Delete(System.Int32)">
             <summary>
             Deletes transaction by id
             </summary>
@@ -29,7 +29,7 @@
             <response code ="204">Success</response>
             <response code ="401">If the user is unauthorized</response>
         </member>
-        <member name="M:TestProjectLegioSoft.Controllers.TransactionController.Edit(System.Int32,System.String)">
+        <member name="M:WebApi.Controllers.TransactionController.Edit(System.Int32,System.String)">
             <summary>
             Updates the status of transaction
             </summary>
@@ -43,7 +43,7 @@
             <response code ="204">Success</response>
             <response code ="401">If the user is unauthorized</response>
         </member>
-        <member name="M:TestProjectLegioSoft.Controllers.TransactionController.Import(Microsoft.AspNetCore.Http.IFormFile)">
+        <member name="M:WebApi.Controllers.TransactionController.Import(Microsoft.AspNetCore.Http.IFormFile)">
             <summary>
             Imports the file to the database or updates the status if the transaction already in the database
             </summary>
@@ -53,7 +53,7 @@
             <response code ="204">Success</response>
             <response code ="401">If the user is unauthorized</response>
         </member>
-        <member name="M:TestProjectLegioSoft.Controllers.TransactionController.ExportByType(System.String)">
+        <member name="M:WebApi.Controllers.TransactionController.ExportByType(System.String)">
             <summary>
             Filters and exports the file by the type
             </summary>
@@ -66,7 +66,7 @@
             <response code ="200">Success</response>
             <response code ="401">If the user is unauthorized</response>
         </member>
-        <member name="M:TestProjectLegioSoft.Controllers.TransactionController.ExportByStatus(System.String)">
+        <member name="M:WebApi.Controllers.TransactionController.ExportByStatus(System.String)">
             <summary>
             Filters and exports the file by the status
             </summary>
@@ -79,7 +79,7 @@
             <response code ="200">Success</response>
             <response code ="401">If the user is unauthorized</response>
         </member>
-        <member name="M:TestProjectLegioSoft.Controllers.TransactionController.ExportByClientName(System.String)">
+        <member name="M:WebApi.Controllers.TransactionController.ExportByClientName(System.String)">
             <summary>
             Filters and exports the file by the client name
             </summary>
@@ -92,7 +92,7 @@
             <response code ="200">Success</response>
             <response code ="401">If the user is unauthorized</response>
         </member>
-        <member name="M:TestProjectLegioSoft.Controllers.UserController.Register(TestProjectLegioSoft.ControllerModels.RegisterControllerModel)">
+        <member name="M:WebApi.Controllers.UserController.Register(WebApi.ControllerModels.RegisterControllerModel)">
             <summary>
             Registers the user
             </summary>
@@ -110,7 +110,7 @@
             <response code ="200">Success</response>
             <response code = "500">If the user already registered or passwords don`t match</response>
         </member>
-        <member name="M:TestProjectLegioSoft.Controllers.UserController.Login(TestProjectLegioSoft.ControllerModels.LoginControllerModel)">
+        <member name="M:WebApi.Controllers.UserController.Login(WebApi.ControllerModels.LoginControllerModel)">
             <summary>
             Logins the user
             </summary>
