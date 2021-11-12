@@ -36,9 +36,6 @@ namespace TestProjectLegioSoft.Middleware
                 case ArgumentException:
                     code = HttpStatusCode.UnsupportedMediaType;
                     break;
-                case TaskCanceledException:
-                    code = HttpStatusCode.BadRequest;
-                    break;
             }
 
             context.Response.ContentType = "application/json";
