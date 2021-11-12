@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Domain;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -36,12 +36,6 @@ namespace DAL
             builder.Entity<Transaction>()
                 .Property(x => x.Id)
                 .ValueGeneratedNever();
-            builder.Entity<Transaction>()
-                .Property(x => x.TransactionType)
-                .HasConversion<string>();
-            builder.Entity<Transaction>()
-                .Property(x => x.Status)
-                .HasConversion<string>();
         }
     }
 }
