@@ -6,7 +6,7 @@
 
 You need to setup MSSQL to use Transaction API locally
 
-##Getting started
+## Getting started
 
 First you need to run the Web API project. Then you need to register, because only registered users have the access to the api.
 
