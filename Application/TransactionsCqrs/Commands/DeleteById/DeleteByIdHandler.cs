@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using DAL;
 using MediatR;
 
-namespace BLL.TransactionsCqrs.Commands.DeleteById
+namespace Application.TransactionsCqrs.Commands.DeleteById
 {
     public class DeleteByIdHandler : IRequestHandler<DeleteByIdCommand>
     {

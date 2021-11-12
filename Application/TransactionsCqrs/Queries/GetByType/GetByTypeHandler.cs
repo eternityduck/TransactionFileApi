@@ -6,7 +6,7 @@ using DAL;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace BLL.TransactionsCqrs.Queries.GetByType
+namespace Application.TransactionsCqrs.Queries.GetByType
 {
     public class GetByTypeHandler : QueryBase, IRequestHandler<GetByTypeQuery, MemoryStream>
     {

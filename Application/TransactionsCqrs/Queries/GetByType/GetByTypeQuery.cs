@@ -2,7 +2,7 @@
 using Domain;
 using MediatR;
 
-namespace BLL.TransactionsCqrs.Queries.GetByType
+namespace Application.TransactionsCqrs.Queries.GetByType
 {
     public class GetByTypeQuery : IRequest<MemoryStream>
     {

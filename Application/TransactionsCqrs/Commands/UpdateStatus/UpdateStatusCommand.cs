@@ -1,7 +1,7 @@
 ﻿using Domain;
 using MediatR;
 
-namespace BLL.TransactionsCqrs.Commands.UpdateStatus
+namespace Application.TransactionsCqrs.Commands.UpdateStatus
 {
     public class UpdateStatusCommand : IRequest
     {

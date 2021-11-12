@@ -4,7 +4,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 
-namespace TestProjectLegioSoft.Middleware
+namespace WebApi.Middleware
 {
     public class CustomExceptionHandler
     {

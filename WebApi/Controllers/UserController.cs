@@ -10,10 +10,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
-using TestProjectLegioSoft.ControllerModels;
+using WebApi.ControllerModels;
 
-
-namespace TestProjectLegioSoft.Controllers
+namespace WebApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]

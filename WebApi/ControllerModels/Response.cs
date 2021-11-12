@@ -1,4 +1,4 @@
-﻿namespace TestProjectLegioSoft.ControllerModels
+﻿namespace WebApi.ControllerModels
 {
     public class Response
     {

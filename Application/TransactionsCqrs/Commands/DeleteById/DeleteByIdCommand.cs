@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace BLL.TransactionsCqrs.Commands.DeleteById
+namespace Application.TransactionsCqrs.Commands.DeleteById
 {
     public class DeleteByIdCommand : IRequest
     {

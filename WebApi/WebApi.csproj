@@ -3,7 +3,6 @@
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
         <LangVersion>9</LangVersion>
-        <RootNamespace>TestProjectLegioSoft</RootNamespace>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <NoWarn>$(NoWarn);1591</NoWarn>
     </PropertyGroup>

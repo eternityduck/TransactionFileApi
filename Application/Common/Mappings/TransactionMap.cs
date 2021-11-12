@@ -1,7 +1,7 @@
 ﻿using CsvHelper.Configuration;
 using Domain;
 
-namespace BLL.Common.Mappings
+namespace Application.Common.Mappings
 {
     public sealed class TransactionMap : ClassMap<Transaction>
     {

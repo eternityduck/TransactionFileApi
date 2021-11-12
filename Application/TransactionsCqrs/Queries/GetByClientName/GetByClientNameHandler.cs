@@ -6,7 +6,7 @@ using DAL;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace BLL.TransactionsCqrs.Queries.GetByClientName
+namespace Application.TransactionsCqrs.Queries.GetByClientName
 {
     public class GetByClientNameHandler : QueryBase, IRequestHandler<GetByClientNameQuery, MemoryStream>
     {

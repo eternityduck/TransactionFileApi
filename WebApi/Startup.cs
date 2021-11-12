@@ -14,10 +14,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using TestProjectLegioSoft.Middleware;
+using WebApi.Middleware;
 
-
-namespace TestProjectLegioSoft
+namespace WebApi
 {
     public class Startup
     {

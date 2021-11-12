@@ -2,11 +2,11 @@
 using System.Globalization;
 using System.IO;
 using System.Threading.Tasks;
-using BLL.Common.Mappings;
+using Application.Common.Mappings;
 using CsvHelper;
 using Domain;
 
-namespace BLL.TransactionsCqrs.Queries
+namespace Application.TransactionsCqrs.Queries
 {
     public class QueryBase
     {

@@ -1,13 +1,12 @@
-﻿using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
+using BLL.TransactionsCqrs.Queries;
 using DAL;
-using Domain;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace BLL.TransactionsCqrs.Queries.GetAll
+namespace Application.TransactionsCqrs.Queries.GetAll
 {
     public class GetAllHandler : QueryBase, IRequestHandler<GetAllQuery, MemoryStream>
     {

@@ -2,20 +2,19 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using BLL.TransactionsCqrs.Commands.DeleteById;
-using BLL.TransactionsCqrs.Commands.ImportFile;
-using BLL.TransactionsCqrs.Commands.UpdateStatus;
-using BLL.TransactionsCqrs.Queries.GetAll;
-using BLL.TransactionsCqrs.Queries.GetByClientName;
-using BLL.TransactionsCqrs.Queries.GetByStatus;
-using BLL.TransactionsCqrs.Queries.GetByType;
+using Application.TransactionsCqrs.Commands.DeleteById;
+using Application.TransactionsCqrs.Commands.ImportFile;
+using Application.TransactionsCqrs.Commands.UpdateStatus;
+using Application.TransactionsCqrs.Queries.GetAll;
+using Application.TransactionsCqrs.Queries.GetByClientName;
+using Application.TransactionsCqrs.Queries.GetByStatus;
+using Application.TransactionsCqrs.Queries.GetByType;
 using Domain;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-
-namespace TestProjectLegioSoft.Controllers
+namespace WebApi.Controllers
 {
     [Authorize]
     [Produces("application/json")]

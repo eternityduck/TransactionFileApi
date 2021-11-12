@@ -6,7 +6,7 @@ using DAL;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace BLL.TransactionsCqrs.Queries.GetByStatus
+namespace Application.TransactionsCqrs.Queries.GetByStatus
 {
     public class GetByStatusHandler : QueryBase, IRequestHandler<GetByStatusQuery, MemoryStream>
     {

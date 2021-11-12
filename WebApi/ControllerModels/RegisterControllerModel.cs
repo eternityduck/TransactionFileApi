@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace TestProjectLegioSoft.ControllerModels
+namespace WebApi.ControllerModels
 {
     public class RegisterControllerModel
     {

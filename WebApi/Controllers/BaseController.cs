@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace TestProjectLegioSoft.Controllers
+namespace WebApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]/[action]")]

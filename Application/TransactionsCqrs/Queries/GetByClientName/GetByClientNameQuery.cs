@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using MediatR;
 
-namespace BLL.TransactionsCqrs.Queries.GetByClientName
+namespace Application.TransactionsCqrs.Queries.GetByClientName
 {
     public class GetByClientNameQuery : IRequest<MemoryStream>
     {

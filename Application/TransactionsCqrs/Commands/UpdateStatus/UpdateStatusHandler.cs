@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using DAL;
 using MediatR;
 
-namespace BLL.TransactionsCqrs.Commands.UpdateStatus
+namespace Application.TransactionsCqrs.Commands.UpdateStatus
 {
     public class UpdateStatusHandler : IRequestHandler<UpdateStatusCommand>
     {

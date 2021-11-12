@@ -1,9 +1,7 @@
-﻿using System.Collections.Generic;
-using System.IO;
-using Domain;
+﻿using System.IO;
 using MediatR;
 
-namespace BLL.TransactionsCqrs.Queries.GetAll
+namespace Application.TransactionsCqrs.Queries.GetAll
 {
     public class GetAllQuery : IRequest<MemoryStream>
     {

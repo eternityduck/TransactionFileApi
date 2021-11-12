@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 
-namespace BLL.TransactionsCqrs.Commands.ImportFile
+namespace Application.TransactionsCqrs.Commands.ImportFile
 {
     public class ImportFileCommand : IRequest
     {

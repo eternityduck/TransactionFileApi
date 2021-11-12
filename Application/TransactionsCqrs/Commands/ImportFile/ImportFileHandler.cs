@@ -8,7 +8,7 @@ using DAL;
 using Domain;
 using MediatR;
 
-namespace BLL.TransactionsCqrs.Commands.ImportFile
+namespace Application.TransactionsCqrs.Commands.ImportFile
 {
     public class ImportFileHandler: IRequestHandler<ImportFileCommand>
     {
