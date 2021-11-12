@@ -1,4 +1,4 @@
-<h1 align="center">:Transaction: Transaction API</h1>
+<h1 align="center">:bar_chart: Transaction API</h1>
 <p align="center">.NET API for the importing and exporting files about transactions</p>
 
 
