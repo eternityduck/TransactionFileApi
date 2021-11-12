@@ -12,8 +12,6 @@ namespace DAL
         public ApiContext(DbContextOptions<ApiContext> options)
             : base(options)
         {
-            Database.EnsureCreated();
-            
         }
         public DbSet<Transaction> Transactions { get; set; }
 
